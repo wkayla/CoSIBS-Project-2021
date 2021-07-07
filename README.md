@@ -10,7 +10,7 @@ Notes I things I wanted the group to notice and think through:
 
 •	The study IDs for the case and control samples were the same and needed to be manipulated to be distinct
 
-o	This was pointed out by Nathan
+    o	This was pointed out by Nathan
 
 •	The metabolites raw data had a section at the bottom with text that when read in would cause issues in merging
 
@@ -18,4 +18,4 @@ o	This was pointed out by Nathan
 
 •	The timepoint labels were different for cases and controls
 
-o	Not only were the timepoints different there was white space causing issues in grouping
+    o	Not only were the timepoints different there was white space causing issues in grouping
