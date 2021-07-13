@@ -4,7 +4,7 @@ library(tidyverse)
 path<-"C:/Users/wkayla/OneDrive - The University of Colorado Denver/COSIBS Project 2021/Data/" #update this for where the data is stored at in your computer
 
 #Load in files
-clinical=read.csv(paste(path,"MEEP_DataForR_format_delete PHI.csv",sep=""), header = T) #read.csv is a part of a suite of "read" functions. In this case Iuse all of the defaults except header which I update to True because all of our variable names are named in the CSV file
+clinical=read.csv(paste(path,"MEEP_DataForR_format_delete PHI.csv",sep=""), header = T) 
 clinical_carpe=read.csv(paste(path,"Copy of CarpeData delete PHI.csv",sep=""), header = T)
 metabolites=read.csv(paste(path,"metabolites raw text removed.csv",sep=""),header=T)
 nmr_carpe=read.csv(paste(path,"NMR carpe samples sheet1 updated.csv",sep=""),header=T)
