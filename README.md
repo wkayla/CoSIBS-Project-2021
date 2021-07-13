@@ -21,7 +21,7 @@ Notes I things I wanted the group to notice and think through:
   - Not only were the timepoints different there was white space causing issues in grouping
 
 
-#Functions used in this Script
+# Functions used in this Script
 
 - read.csv is a part of a suite of "read" functions. In this case I use all of the defaults except header which I update to True because all of our variable names are named in the CSV file
 
@@ -61,7 +61,7 @@ Notes I things I wanted the group to notice and think through:
 	
 	- ifelse(Timepoint=="T1","Enrollment","Discharge") this says if the timepoint is "T1" then change the timepoint name to enrollment and discharge if it is not.
 
--full_join() this is a part of the _join() suite 
+- full_join() this is a part of the _join() suite 
 
 	- this says match all of the sample IDs and if they are an exact match then add all of their data into one row.
  
